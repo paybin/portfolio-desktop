@@ -1,12 +1,12 @@
 {
   "name": "portfolio-desktop",
   "productName": "Paybin",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Paybin Portfolio App",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder",
+    "build": "electron-builder --publish always",
     "pack": "electron-builder --dir"
   },
   "author": "Paybin",
