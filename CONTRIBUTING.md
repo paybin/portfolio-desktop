@@ -66,6 +66,40 @@ npm run build
 - Follow the existing project structure.
 - Ensure no sensitive information is committed.
 
+## Creating a Release
+
+This project uses automated builds and releases via GitHub Actions. When you push a version tag, a DMG will be automatically built and published.
+
+### Release Process
+
+1.  **Update the version** in `package.json`:
+    ```bash
+    npm version patch  # for bug fixes (1.0.2 -> 1.0.3)
+    npm version minor  # for new features (1.0.2 -> 1.1.0)
+    npm version major  # for breaking changes (1.0.2 -> 2.0.0)
+    ```
+
+2.  **Push the tag** to GitHub:
+    ```bash
+    git push origin main --tags
+    ```
+
+3.  **GitHub Actions will automatically**:
+    - Build the macOS DMG
+    - Create a GitHub release
+    - Upload the DMG and update metadata
+    - Users with the app installed will be notified of the update
+
+### Testing Locally
+
+Before creating a release, test the build locally:
+
+```bash
+npm run build
+```
+
+The DMG will be created in the `dist/` folder.
+
 ## Reporting Bugs
 
 This section guides you through submitting a bug report.
