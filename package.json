@@ -28,6 +28,7 @@
     "publish": {
       "provider": "github",
       "owner": "paybin",
+      "releaseType": "release",
       "repo": "portfolio-desktop"
     },
     "mac": {
