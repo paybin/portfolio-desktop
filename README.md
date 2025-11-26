@@ -1,5 +1,8 @@
 # Paybin Electron App
 
+[![GitHub Release](https://img.shields.io/github/v/release/paybin/portfolio-desktop)](https://github.com/paybin/portfolio-desktop/releases)
+[![Build and Release](https://github.com/paybin/portfolio-desktop/actions/workflows/build.yml/badge.svg)](https://github.com/paybin/portfolio-desktop/actions/workflows/build.yml)
+
 A macOS Electron application that wraps the Paybin Portfolio website (https://portfolio.paybin.io).
 
 ## Features
