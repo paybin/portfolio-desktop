@@ -1,9 +1,9 @@
-# Paybin Electron App
+# Paybin Portfolio Desktop
 
 [![GitHub Release](https://img.shields.io/github/v/release/paybin/portfolio-desktop)](https://github.com/paybin/portfolio-desktop/releases)
 [![Build and Release](https://github.com/paybin/portfolio-desktop/actions/workflows/build.yml/badge.svg)](https://github.com/paybin/portfolio-desktop/actions/workflows/build.yml)
 
-A macOS Electron application that wraps the Paybin Portfolio website (https://portfolio.paybin.io).
+A desktop application for Paybin Portfolio (https://portfolio.paybin.io) available for macOS and Windows.
 
 ## Features
 
@@ -35,13 +35,13 @@ npm start
 
 ## Build
 
-To build the macOS application (DMG):
+To build the application:
 
 ```bash
 npm run build
 ```
 
-The output DMG file will be located in the `dist` directory.
+The output files will be located in the `dist` directory.
 
 ## Icon Generation
 
